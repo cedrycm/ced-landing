@@ -49,6 +49,7 @@ export const SectionTitle = styled(styledh2)<{
   line-height: ${(props) => (props.main ? "72px" : "56px")};
 
   padding: ${(props) => (props.main ? "58px 0 16px" : "0")};
+  padding-bottom: .4rem;
   @media ${(props) => props.theme.breakpoints.md} {
     font-size: ${(props) => (props.main ? "56px" : "48px")};
     line-height: ${(props) => (props.main ? "56px" : "48px")};

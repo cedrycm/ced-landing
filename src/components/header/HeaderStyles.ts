@@ -1,7 +1,7 @@
 import { IoIosArrowDropdown } from "react-icons/io";
 import {styled} from "../../themes/themes";
 
-export const Container = styled.div<>`
+export const Container = styled.div`
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: 1fr;
@@ -33,6 +33,7 @@ export const Div2 = styled.div`
     grid-area: 2 / 2 / 3 / 5;
   }
 `;
+
 export const Div3 = styled.div`
   grid-area: 1 / 5 / 2 / 6;
   display: flex;
@@ -55,10 +56,12 @@ export const NavLink = styled.a`
     opacity: 1;
     cursor: pointer;
   }
+  padding: 0.8rem;
+
   @media ${(props) => props.theme.breakpoints.sm} {
     padding: 0.5rem;
   }
-`;
+`;  
 
 /// DropDown Contact
 export const ContactDropDown = styled.button`

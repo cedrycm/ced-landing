@@ -29,7 +29,7 @@ export const Projects: React.FC<ProjectsProps> = ({}) => {
         {projects.map((p, i) => {
           return (
             <BlogCard key={i}>
-              <Img src={p.image} />
+              {/* <Img src={p.image} /> */}
               <TitleContent>
                 <HeaderThree>{p.title}</HeaderThree>
                 <Hr />
@@ -54,3 +54,5 @@ export const Projects: React.FC<ProjectsProps> = ({}) => {
     </Section>
   );
 };
+
+export default Projects;

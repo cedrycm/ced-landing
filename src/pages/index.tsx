@@ -5,7 +5,7 @@ import React from "react";
 import { Hero } from "../components/hero/Hero";
 import Layout from "../components/layout/Layout";
 import { Projects } from "../components/projects/Projects";
-import Technologies from "../components/Technologies/Technologies";
+import Technologies from "../components/technologies/Technologies";
 import { Section } from "../styles/GlobalComponents";
 import styles from '../styles/Home.module.css'
 

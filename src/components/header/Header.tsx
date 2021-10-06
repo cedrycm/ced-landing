@@ -20,6 +20,7 @@ export const Header: React.FC<HeaderProps> = ({}) => {
       </Div1>
       <Div2>
         <li>
+          <NavLink href="#projects">Projects</NavLink>
           <NavLink href="#tech">Technologies</NavLink>
         </li>
       </Div2>

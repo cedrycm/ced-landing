@@ -8,6 +8,7 @@ interface LayoutProps {
   children?: any;
 }
 
+
 export const Layout: React.FC<LayoutProps> = ({ children }) => {
   return (
     <Container>
@@ -19,3 +20,4 @@ export const Layout: React.FC<LayoutProps> = ({ children }) => {
 };
 
 export default Layout;
+

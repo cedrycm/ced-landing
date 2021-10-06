@@ -27,5 +27,5 @@ export const defaultTheme: DefaultTheme = {
   },
 };
 
-export type Theme = DefaultTheme;
+export type Theme = typeof defaultTheme;
 export const styled = baseStyled as ThemedStyledInterface<Theme>;
