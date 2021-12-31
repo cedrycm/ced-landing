@@ -1,4 +1,4 @@
-import { styled } from "../../themes/themes";
+import { styled } from "../../../themes/themes";
 
 export const FooterWrapper = styled.section`
   width: calc(100vw - 96px);

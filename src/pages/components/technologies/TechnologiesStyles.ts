@@ -1,4 +1,4 @@
-import { styled } from "../../themes/themes";
+import { styled } from "../../../themes/themes";
 
 export const ImageContainer = styled.div`
   text-align: center;

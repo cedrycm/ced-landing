@@ -1,5 +1,5 @@
 import { IoIosArrowDropdown } from "react-icons/io";
-import {styled} from "../../themes/themes";
+import {styled} from "../../../themes/themes";
 
 export const Container = styled.div`
   display: grid;

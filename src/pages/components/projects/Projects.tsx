@@ -3,7 +3,7 @@ import {
   Section,
   SectionDivider,
   SectionTitle,
-} from "../../styles/GlobalComponents";
+} from "../../../styles/GlobalComponents";
 import {
   BlogCard,
   CardInfo,
@@ -17,7 +17,7 @@ import {
   TitleContent,
   UtilityList,
 } from "./ProjectsStyles";
-import { projects } from "../../constants/constants";
+import { projects } from "../../../constants/constants";
 interface ProjectsProps {}
 
 export const Projects: React.FC<ProjectsProps> = ({}) => {

@@ -21,7 +21,7 @@ import {
   SectionDivider,
   SectionText,
   SectionTitle,
-} from "../../styles/GlobalComponents";
+} from "../../../styles/GlobalComponents";
 import {
   List,
   ListContainer,

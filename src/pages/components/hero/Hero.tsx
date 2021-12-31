@@ -3,8 +3,8 @@ import {
   Section,
   SectionTitle,
   SectionText,
-} from "../../styles/GlobalComponents";
-import Button from "../../styles/GlobalComponents/Button";
+} from "../../../styles/GlobalComponents";
+import Button from "../../../styles/GlobalComponents/Button";
 import { LeftSection } from "./HeroStyles";
 
 interface HeroProps {
@@ -17,9 +17,8 @@ export const Hero: React.FC<HeroProps> = ({}) => {
         <Section row nopadding>
           <LeftSection>
             <SectionTitle main>
-              {`Hi, I'm Cedryc.`}
+              {`Cedryc Midy`}
               <br />
-              Welcome!
             </SectionTitle>
             <SectionText>
               {`I hope to see projects I work on in the future ameliorate lives, especially in marginalized communities.`}

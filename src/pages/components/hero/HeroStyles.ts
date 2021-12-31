@@ -1,4 +1,4 @@
-import { styled } from "../../themes/themes";
+import { styled } from "../../../themes/themes";
 
 export const LeftSection = styled.div`
   width: 100%;
